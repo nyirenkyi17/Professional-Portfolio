@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-homepage{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.home-content .intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* .aboutme .myproject{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.navbar {
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between; 
+}
+
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: #dceb33;
+}
+
+.main-homepage .home-content{
+    display: flex;
+    margin-left: 7rem;
+}
+
+.home{
+    display: flex;
+    background: url(image/m4rrjy7rupqsl6h6tpqd.jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home .main-homepage .intro{
+    font-size: 30px;
+    color: yellow;
+}
+
+.profile-pic img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 70%;
+    border: 5px;
+    padding: 10px;
+}
+
+.aboutme {
+    display: flex;
+    background: url(./image/hero.jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.column-right a{
+    color: #fff;
+}
+
+.column-right a:hover{
+    transition: color 0.3s ease;
+    color: #dceb33;
+}
+
+.column-left img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 0px solid #fff;
+    padding: 10px;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 80px 0;
+    margin: auto;
+}
+
+.project-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.myprojects .project-content .card1{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.myprojects .card2{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.myprojects .card3{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.myprojects .project-content .card1:hover{
+    background: black;
+}
+.myprojects .project-content .card2:hover{
+    background: black;
+}
+.myprojects .project-content .card3:hover{
+    background: black;
+}
+
+.project-name1{
+    font-size: 35px;
+    height: 10vh;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+}
+
+.project-name2{
+    font-size: 35px;
+    height: 9vh;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+}
+
+.project-name3{
+    font-size: 35px;
+    height: 12vh;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+}
+
+.card1 a{
+    color:white;
+}
+.card2 a{
+    color: white;
+}
+.card3 a{
+    color: white;
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgray;
+    width: 350px;
+    min-height: 250px;
+    padding: 20px;
+    
+}
+
+.card1 a:hover{
+    transition: color 0.3s ease;
+    color: #dceb33;
+} 
+
+.card2 a:hover{
+    transition: color 0.3s ease;
+    color: #dceb33;
+}
+.card3 a:hover{
+    transition: color 0.3s ease;
+    color: #dceb33;
+}  
+
+.myprojects{
+    display:  flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(./image/hero.jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+ .contact{
+    display: flex;
+    align-items: center;
+    background: url(./image/hero.jpg);
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+ }
+ .icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    border-radius: 80%;
+    font-size: 45px;
+    justify-content: space-evenly;
+}
+
+.icons :hover {
+    transition: color 0.3s ease;
+    color: #dceb33;
+}
+
+footer{
+    background: #111;
+    padding: 35px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;;
+    color: yellow;
+    height: auto;
+}
+
+h1{
+    font-size: 35px;
+    height: 70vh;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+h2{
+    font-size: 35px;
+    height: 10vh;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    
+    
+}
+h3{
+    font-size: 35px;
+    height: 50vh;
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
